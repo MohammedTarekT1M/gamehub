@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(../../img/Whackbg.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+}
+
+.whackamoletags {
+    background: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px; 
+    color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.buttonstyle {
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    border-width: 3px;
+    border-radius: 10%;
+    border-color: white;
+    top: 10px;
+}
+
+.spelregels {
+    color:black;
+}
+

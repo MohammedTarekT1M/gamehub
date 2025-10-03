@@ -1,0 +1,113 @@
+body{
+    background: radial-gradient(circle at 100%, #0bb608, #04c8da 50%, rgb(16, 81, 149) 75%);
+}
+.logo{
+    margin-left: 49.5%;
+    width: 90px;
+}
+h1{
+    
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    text-shadow: 10px 4px 15px black;
+    text-align: center;
+    font-size: 80px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 76vh;
+}
+  
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+}
+  
+.box > a > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+}
+  
+.box > a > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+  
+.box:hover { 
+    flex: 1 1 50%;
+}
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+.men{
+    color: rgb(237, 114, 24);
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.mvn{
+    color: rgb(139, 0, 0);
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.wam{
+    color: green;
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+footer{
+    text-align: center;
+    background-color: rgb(8, 98, 162);
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-family: "Pangolin", cursive;
+}
+.about{
+    margin-left: 8.5%;
+    text-align: center;
+}
+.about img{
+    border-radius: 60%;
+}
+@media screen and (max-width: 1750px) {
+  .about{
+    margin-left: 1%;
+  }
+  .logo{
+    margin-left: 44%;
+  }
+}
+@media screen and (max-width: 1377px) {
+  .container{
+    display: inline;
+  }
+  .logo{
+    margin-left: 47%;
+  }
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(18, 90, 161);
+}
+p{
+    font-size: x-large;
+    margin: 50px;
+    font-family: cursive;
+    background-color: rgba(139, 238, 135, 0.595);
+    color: white;
+    padding: 50px;
+    text-shadow: 10px 6px 16px black;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+p:hover{
+    box-shadow: 20px 20px 12px 4px black;
+    
+}
+h1{
+    text-align: center;
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: xx-large;
+}
+.game-button{
+    font-size: 30pt;
+    text-align: center;
+	display: inline-block;
+	margin-left:47%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.game-button:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
